@@ -1,3 +1,4 @@
+require 'pry'
 class Follower
     attr_accessor :name, :age, :life_motto
 
@@ -46,3 +47,5 @@ class Follower
         self.most_actives(10)
     end
 end
+
+binding.pry
